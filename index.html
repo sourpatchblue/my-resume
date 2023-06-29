@@ -19,6 +19,27 @@
         }
         h1 {
             font-size: 2rem; font-weight: bold;
+            margin: 0;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .dates{
+            text-align: right;
+        }
+        .title {
+            display: inline-block;
+            width: 50%; 
+            text-align: left;
+            margin: 0;
+        }
+        .dates {
+            display: inline-block;
+            width: 50%;
+            text-align: right;
+            margin: 0;
+        }
+        h3, hr {
+            margin: 0;
         }
     </style>
 </head>
@@ -30,8 +51,8 @@
     Canton, GA 30114<br />
     Phone: (706) 362-3823<br />
     Email: gbolinger95@gmail.com</h3>
-    <img src="./assets/Headshot.jpg" height="200" alt="A very handsome portrait" />
-    <hr />
+    <img src="./assets/Headshot.jpg" height="200px" alt="A very handsome portrait" />
+        <hr />
     <p class="about"> My name is Graham Bolinger, and I am a current MS candidate in Kennesaw State University's 
         Software Engineering program. At the moment, I am learning the fundamentals of full stack 
         development in the hope that I may land a job in the tech field. I am particularly
@@ -43,13 +64,14 @@
     <h3>Education</h3>
     <hr />
         <ul>
-            <li>University of Georgia - August, 2015 - August, 2019
+            <li> <p class="title">University of Georgia</p><p class="dates">August, 2015 - August, 2019</p>
                 <ul>
                     <li>BBA - Business</li>
                     <li>GPA - 3.34</li>
                 </ul>
             </li>
-            <li>Kennesaw State University - Projected Graduation December, 2024
+            <br />
+            <li> <p class="title">Kennesaw State University</p><p class="dates">Projected Graduation December, 2024</p>
                 <ul>
                     <li>MS - Software Engineering</li>
                 </ul>
@@ -58,7 +80,8 @@
     <h3>Work Experience</h3>
     <hr />
         <ul>
-            <li>Dynamic Telecommuniations E&C - August, 2016 - Present<br />
+            <li> <p class="title">Dynamic Telecommuniations E&C</p><p class="dates">August, 2016 - Present</p>
+                <br />
                 Project Manager/Fiber Engineer
                 <ul>
                     <li>Conducted both aerial & underground fiber routing, field engineering, and 
@@ -83,7 +106,8 @@
                 </ul>
             </li>
             <br />
-            <li>Byers Engineering - March, 2021 - December, 2021<br />
+            <li> <p class="title">Byers Engineering</p><p class="dates">March, 2021 - December, 2021</p>
+                <br />
                 Field Engineer/Design Engineer
                 <ul>
                     <li>Assisted Lumen on their Collector 11/Collector 13 project in Minneapolis, MN by:
@@ -97,7 +121,8 @@
                 </ul>
             </li>
             <br />
-            <li>Quanta Utility Engineering Services - January, 2021 - March, 2021<br />
+            <li> <p class="title">Quanta Utility Engineering Services</p><p class="dates">January, 2021 - March, 2021</p>
+                <br />
                 Design Engineer
                 <ul>
                     <li>Assisted Georgia Power in the Metro-Atlanta market by:
